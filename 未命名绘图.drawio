@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-01-27T20:20:46.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.6.0" etag="N2ZDiT2XsgFmrm5RQ9r4" type="github"><diagram id="_sWU_x8il6GDWOBKd8Ga">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-27T20:22:10.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.6.0" etag="agZjuDpPSe6B129yvAla" type="github">
+  <diagram id="agpGYJddhAm4jYqgAwiG" name="第 1 页">
+    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fOAYRwyHLavQJ60hvEls-2" value="gaproxy" style="rounded=1;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="800" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-3" value="LB" style="rounded=1;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="800" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-4" value="" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" diagramCategory="general" diagramName="Actor" vertex="1" parent="1">
+          <mxGeometry x="845" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-4" target="fOAYRwyHLavQJ60hvEls-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="210" as="sourcePoint" />
+            <mxPoint x="870" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-3" target="fOAYRwyHLavQJ60hvEls-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="540" as="sourcePoint" />
+            <mxPoint x="870" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=200;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-8" target="fOAYRwyHLavQJ60hvEls-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-8" value="CICD/config-center" style="rounded=0;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="Rectangle" vertex="1" parent="1">
+          <mxGeometry x="1310" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" target="fOAYRwyHLavQJ60hvEls-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="390" as="sourcePoint" />
+            <mxPoint x="870" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-2" target="fOAYRwyHLavQJ60hvEls-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-11" value="logic-grpc-gateway" style="rounded=1;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="800" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-12" value="etcd" style="rounded=1;whiteSpace=wrap;html=1;" diagramCategory="general" diagramName="RoundedRectangle" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" target="fOAYRwyHLavQJ60hvEls-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="520" as="sourcePoint" />
+            <mxPoint x="760" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-12" target="fOAYRwyHLavQJ60hvEls-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="710" as="sourcePoint" />
+            <mxPoint x="770" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" diagramCategory="general" diagramName="DirectionalConnector" edge="1" parent="1" source="fOAYRwyHLavQJ60hvEls-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="859.5" y="580" as="sourcePoint" />
+            <mxPoint x="859.5" y="677.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-16" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="fOAYRwyHLavQJ60hvEls-15">
+          <mxGeometry x="-0.2331" relative="1" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-17" value="&lt;span style&gt;CmdToServerFile.yaml&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" diagramName="Note" diagramCategory="general" parent="1">
+          <mxGeometry x="1020" y="365" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-18" value="&lt;span style&gt;ugc-logic&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" diagramName="RoundedRectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="800" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fOAYRwyHLavQJ60hvEls-19" value="&lt;span style&gt;logic-cmd-configer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" diagramName="Rectangle" diagramCategory="general" parent="1">
+          <mxGeometry x="370" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
